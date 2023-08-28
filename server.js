@@ -1,6 +1,6 @@
-require("dotenv").config();
 const multer = require("multer");
 const mongoose = require("mongoose");
+require("dotenv").config();
 const bcrypt = require("bcrypt");
 const File = require("./models/file");
 
